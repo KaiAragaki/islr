@@ -72,7 +72,7 @@ drape.plot(predictSurface(fig2_5_fit), zlim = c(20, 150))
 # Figure 2.6 --------------------------------------------------------------
 
 fig2_6_fit <- Tps(inc_2[,1:2], inc_2[,3], lambda = 0.0001)
-drape.plot(predictSurface(fig2_6_fit), zlim = c(20, 150))
+persp(predictSurface(fig2_6_fit), zlim = c(20, 150))
 
 
 # Figure 2.7 --------------------------------------------------------------
@@ -141,3 +141,23 @@ ggplot(f_noise, aes(x, y)) +
         geom_point() + 
         geom_line(aes(x = x, y = f_true$y)) + 
         geom_smooth(method = lm, se = F)
+
+
+# Figure 2.13 -------------------------------------------------------------
+
+# Idk where to start w this one
+
+
+# Figure 2.14 -------------------------------------------------------------
+
+# Same
+
+
+# Figure 2.15 -------------------------------------------------------------
+
+# Same
+
+
+# Figure 2.16 -------------------------------------------------------------
+
+# Same
